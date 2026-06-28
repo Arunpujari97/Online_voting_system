@@ -42,20 +42,20 @@ Vote is encrypted and stored securely in MySQL database
 Admin can view live results from the dashboard
 
 7.Project Structure
-'''
+```
 online-voting-system/
 │
-├── index.php             # Landing / login page
-├── register.php          # Voter registration
-├── vote.php              # Voting interface
-├── submit_vote.php       # Vote submission and validation
-├── dashboard.php         # Admin results view
-├── auth.php              # Authentication logic
-├── encrypt.php           # Encryption functions
-├── style.css             # Styling
-├── voting_system.sql     # MySQL schema
+├── index.php             # Landing and login page
+├── register.php          # Voter registration and credential setup
+├── vote.php              # Voting interface and candidate selection
+├── submit_vote.php       # Vote submission, validation and duplicate check
+├── dashboard.php         # Admin results and vote count dashboard
+├── auth.php              # Authentication and session management logic
+├── encrypt.php           # Encryption functions for voter data
+├── style.css             # Application styling
+├── voting_system.sql     # MySQL schema and database setup
 └── README.md
-'''
+```
 
 7.Testing
 
