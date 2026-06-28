@@ -45,21 +45,15 @@ Admin can view live results from the dashboard
 
 online-voting-system/
 │
-├── index.php               # Landing / login page
-├── register.php            # Voter registration
-├── vote.php                # Voting interface
-├── submit_vote.php         # Vote submission and validation
-├── admin/
-│   ├── dashboard.php       # Admin results view
-│   └── manage_voters.php   # Voter management
-├── includes/
-│   ├── auth.php            # Authentication logic
-│   ├── encrypt.php         # Encryption functions
-│   └── db_connect.php      # Database connection
-├── db/
-│   └── voting_system.sql   # MySQL schema
-├── css/
-│   └── style.css           # Styling
+├── index.php             # Landing / login page
+├── register.php          # Voter registration
+├── vote.php              # Voting interface
+├── submit_vote.php       # Vote submission and validation
+├── dashboard.php         # Admin results view
+├── auth.php              # Authentication logic
+├── encrypt.php           # Encryption functions
+├── style.css             # Styling
+├── voting_system.sql     # MySQL schema
 └── README.md
 
 7.Testing
