@@ -42,7 +42,7 @@ Vote is encrypted and stored securely in MySQL database
 Admin can view live results from the dashboard
 
 7.Project Structure
-
+'''
 online-voting-system/
 │
 ├── index.php             # Landing / login page
@@ -55,6 +55,7 @@ online-voting-system/
 ├── style.css             # Styling
 ├── voting_system.sql     # MySQL schema
 └── README.md
+'''
 
 7.Testing
 
